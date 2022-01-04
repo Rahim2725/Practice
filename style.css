@@ -5,6 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+    
+}
 .color-orange{
     color: orange;
 }
@@ -15,15 +19,17 @@ p{
 
 .disply-flex-contener{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
     width: 50%;
     margin-left: 5%;
+   
 }
 .half-width img{
     width: 100%;
-    margin-bottom: 150px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -48,4 +54,26 @@ padding-right: 23%;
 }
 .dream img{
     width: 90%;
+}
+.ex-area{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px ;
+    box-shadow: 10px 10px 40px  gray  ;
+}
+#baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stak{
+    border-left: 10px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#ex-erea{
+    background-image: url(imgas/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }

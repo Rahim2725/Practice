@@ -23,6 +23,7 @@ p{
 }
 .half-width img{
     width: 100%;
+    margin-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +37,15 @@ p{
     background-image: url(imgas/top-banner.png);
     background-repeat: no-repeat;
    
+}
+#dream-area{
+    background-image: url(imgas/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream p{
+padding-right: 23%;
+}
+.dream img{
+    width: 90%;
 }
